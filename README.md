@@ -140,9 +140,9 @@ Before continuing, check that:
 - No loose wire strands are exposed outside the terminal block.
 - The cable has enough slack and is not pulling on the terminals.
 
-## Important: Check the Power Supply Voltage Before Plugging In
+## ⚠️ Important: Check the Power Supply Voltage Before Plugging In
 
-> **Warning for US users:** Before plugging the power supply into the wall, double check that the voltage selector is switched to **110V**. Using the wrong voltage setting can damage the power supply or the arm.
+> ⚠️ **Warning for US users:** Before plugging the power supply into the wall, double check that the voltage selector is switched to **110V**. Using the wrong voltage setting can damage the power supply or the arm.
 
 ![Power supply voltage selector set to 110V](docs/assets/power-supply-110v-switch.jpg)
 
@@ -151,3 +151,10 @@ Before plugging in the power supply, check that:
 - The voltage selector is set correctly for your country or region.
 - In the US, the selector must be set to **110V**.
 - The power supply is still unplugged while you check or change the selector.
+
+## URDF Files
+
+The URDF files copied from `metal-python-ros` are available here:
+
+- [Metal arm with gripper](docs/urdf/metal_with_gripper.urdf)
+- [Metal arm without gripper](docs/urdf/metal_no_gripper.urdf)
